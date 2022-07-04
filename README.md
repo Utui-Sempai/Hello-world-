@@ -2,17 +2,35 @@
 <doctype html>
 <html>
 <head>
+<Style>
+.formulario{
+width:500px;
+height:500px;
+Background-color: silver;
+}
+</Style>
 <title>
-Hello world 
+Login
 </title>
 <meta charset utf-8/>
 </head>
 <body>
-<h1>
-Hello-world 
-</h1>
-<p>
-A minha primeira vez no github
-</p>
+<div class="formulario>
+<div class="logo>
+</div>
+<div id="form>
+<form>
+<input type="text" placeholder="Username">
+<input type="password" placeholder="Password">
+<table>
+<tr>
+<td><input type="checkbox"></td>
+<td><label>Remember me</label></td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</body>
 </html>
 
